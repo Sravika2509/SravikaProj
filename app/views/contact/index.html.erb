@@ -1,0 +1,9 @@
+<h3 align="center">Message me by passing your Name, Email. I will get back.</h3>
+	<p>
+	  <%= flash[:success] unless flash[:success].blank? %>
+	  <%= flash[:error] unless flash[:error].blank? %>
+	</p>
+  <div id="contact">
+  
+    <%= render 'contact_form' %>
+  </div>
